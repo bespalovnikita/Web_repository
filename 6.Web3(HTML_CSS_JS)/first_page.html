@@ -11,7 +11,7 @@
 <style >
     .reg{
         width: 500px; 
-        height: 140px;
+        height: 130px;
         border: solid 1px black;
         float: left; 
         position: relative;
@@ -20,20 +20,23 @@
 </style>    
     
 <body>
-<form  method="post" action="second_page.html" >
 <h1>Здравствуйте!</h1> 
+<form  method="POST" action="second_page.php" >
+
 <div class="reg">
     
     <p>
     <label for="name">Имя :</label>      
-    <br><input name = "name" maxlength="20" size="20" required>
+    <br><input name = "name" id="name" maxlength="20" size="20" required>
     </p>   
       
     <br>
     <button type="submit" name ="send">Отправить</button>
     <button type="reset" name="clear">Очистить</button>
 </div>
-</form>    
     
+</form>    
+
 </body>
+    
 </html>
