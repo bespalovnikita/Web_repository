@@ -1,0 +1,28 @@
+<?php
+$html_page = file_get_contents("first_page.html");
+echo 'dfgdfg';
+if($_SERVER['REQUEST_METHOD'] == 'POST')
+{ 
+    echo $_POST['name']; 
+
+}
+?>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello</title>
+        <meta name="description" content="Hello, user!">
+    </head>
+    
+<body>
+
+    <h1>Hello, stranger! </h1> 
+    
+    <p>
+    Hello, *** !
+    <br>
+    <a href ="first_page.html" >Вернуться назад</a>, чтобы повторно ввести данные.
+    </p>
+    
