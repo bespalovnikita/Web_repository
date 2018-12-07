@@ -11,8 +11,4 @@ public class main extends HttpServlet{
         req.getRequestDispatcher("page.jsp").forward(req, resp);
     }
 
-    public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String name = req.getParameter("name");
-        req.getRequestDispatcher("hello.jsp").include(req, resp);
-    }
 }
