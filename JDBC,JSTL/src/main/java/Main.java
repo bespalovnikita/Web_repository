@@ -8,11 +8,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.io.PrintWriter;
-
 
 public class Main extends HttpServlet {
-//
+
     static String url = "jdbc:mysql://localhost:3306/test?useTimezone=true&serverTimezone=UTC";
     static String user = "root";
     static String password = "test";
@@ -29,8 +27,8 @@ public class Main extends HttpServlet {
 
     private void do_things(HttpServletRequest request, HttpServletResponse response) throws IOException {
         saveToDatabase(request,response);
-        PrintWriter out = response.getWriter();
         addCookies(request,response);
+        response.sendRedirect("end.jsp");
     }
 
     public void saveToDatabase(HttpServletRequest request, HttpServletResponse response) {

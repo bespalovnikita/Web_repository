@@ -25,14 +25,15 @@ public class LogFilter implements Filter {
 
 
     @Override
-public void destroy() {
-System.out.println("App has been stopped.");
-}
+    public void destroy() {
+    System.out.println("App has been stopped.");
+    }
 
-@Override
-public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-    HttpServletRequest req = (HttpServletRequest) request;
-    String servletPath = req.getServletPath();
-    System.out.println("#INFO " + new Date() + " - ServletPath :" + servletPath + ", URL =" + req.getRequestURL());
-    chain.doFilter(request, response);
-}}
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+        HttpServletRequest req = (HttpServletRequest) request;
+        String servletPath = req.getServletPath();
+        System.out.println("#INFO " + new Date() + " - ServletPath :" + servletPath + ", URL =" + req.getRequestURL());
+        chain.doFilter(request, response);
+    }
+}

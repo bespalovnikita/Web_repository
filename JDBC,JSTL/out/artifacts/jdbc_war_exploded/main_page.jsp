@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
@@ -16,31 +17,27 @@
         <br>
         <div class="reg">
             <p>
-                <label for="Name">Name :</label>
+                <label for="Name">Имя :</label>
                 <br>
                 <input type = "text" name = "Name" id="Name">
             </p>
             <p>
-                <label for="Surname">Surname :</label>
+                <label for="Surname">Фамилия :</label>
                 <br>
-
                 <input type = "text" name = "Surname" id="Surname">
             </p>
             <p>
-                <label for="Patronymic">Patronymic :</label>
+                <label for="Patronymic">Отчество :</label>
                 <br>
-
                 <input type = "text" name = "Patronymic" id="Patronymic">
             </p>
-            <button type="submit" name ="send">Say hello</button>
+            <button type="submit">Send data and view DB.</button>
             <button type="reset" name="clear">Clear</button>
         </div>
     </form>
 </div>
 <div class="other">
-    <form action="end.jsp">
-        <button type="submit">To the end.</button>
-    </form>
+
     <%
         Cookie cookie = null;
         Cookie[] cookies = null;
@@ -56,13 +53,12 @@
                 if ((cookie.getName()).equals("Patronymic")) patronymic = cookie.getValue();
             }
             if ((!name.isEmpty())||(!surname.isEmpty())||(!patronymic.isEmpty())) {
-                out.print("А ведь я знаю тебя... ты ");
+                out.print("А в прошлый раз заходил ");
                 if (!surname.isEmpty()) out.print(surname+ " ");
                 if (!name.isEmpty()) out.print(name + " ");
                 if (!patronymic.isEmpty()) out.print(patronymic + "!");
             }
         }
-
     %>
 </div>
 </body>
@@ -74,7 +70,7 @@
     }
     .reg{
         padding-left: 10px;
-        width: 250px;
+        width: 220px;
         height: 250px;
         border: solid 1px black;
         float: left;
