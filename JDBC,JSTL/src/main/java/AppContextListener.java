@@ -16,7 +16,7 @@ public class AppContextListener implements ServletContextListener,
     }
 
     public void contextDestroyed(ServletContextEvent sce) {
-    System.out.println("Servlet Context is undeployed or Application Server shuts down.");
+        System.out.println("Servlet Context is undeployed or Application Server shuts down.");
     }
 
     public void sessionCreated(HttpSessionEvent se) {

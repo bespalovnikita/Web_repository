@@ -7,42 +7,42 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-    <html>
+<html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Страница с приветствием.</title>
-        <meta name="description" content="Приветствие.">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Страница с приветствием.</title>
+    <meta name="description" content="Приветствие.">
+</head>
 
 
+<body>
+<div class="content">
+    <div class="hello_text">Здравствуйте!</div>
+    <form action="hello.jsp" method="GET">
+        <br>
+        <div class="reg">
+            <p>
+                <label for="name">Имя :</label>
+                <br>
+                <input type="text" name="name" id="name">
+            </p>
+            <button type="submit" name="send">Отправить</button>
+            <button type="reset" name="clear">Очистить содержимое</button>
+        </div>
+    </form>
+</div>
+</body>
 
-        <body>
-        <div class = "content">
-            <div class = "hello_text">Здравствуйте!</div>
-                <form action = "hello.jsp" method = "GET">
-                    <br>
-                    <div class="reg">
-                        <p>
-                            <label for="name">Имя :</label>
-                            <br>
-                            <input type = "text" name = "name" id="name">
-                        </p>
-                        <button type="submit" name ="send">Отправить</button>
-                        <button type="reset" name="clear">Очистить содержимое</button>
-                    </div>
-                </form>
-            </div>
-        </body>
+</html>
 
-    </html>
-
-<style >
-    .content{
+<style>
+    .content {
         margin: 10px 10px;
     }
-    .reg{
+
+    .reg {
         padding-left: 10px;
         width: 250px;
         height: 110px;
@@ -50,7 +50,8 @@
         float: left;
         position: relative;
     }
-    .hello_text{
+
+    .hello_text {
         font-family: 'Lato', sans-serif;
         font-size: 35px;
         color: maroon;

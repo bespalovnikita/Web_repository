@@ -26,8 +26,8 @@ public class Main extends HttpServlet {
     }
 
     private void do_things(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        saveToDatabase(request,response);
-        addCookies(request,response);
+        saveToDatabase(request, response);
+        addCookies(request, response);
         response.sendRedirect("end.jsp");
     }
 
@@ -35,7 +35,7 @@ public class Main extends HttpServlet {
         String name = request.getParameter("Name");
         String surname = request.getParameter("Surname");
         String patronymic = request.getParameter("Patronymic");
-        String insertTableSQL= "INSERT INTO test.table " + "(Name, Surname, Patronymic) " + "VALUES " + "('" + name +"','" + surname + "','" + patronymic + "')";
+        String insertTableSQL = "INSERT INTO test.table " + "(Name, Surname, Patronymic) " + "VALUES " + "('" + name + "','" + surname + "','" + patronymic + "')";
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection(url, user, password);

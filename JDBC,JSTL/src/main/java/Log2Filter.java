@@ -31,7 +31,7 @@ public class Log2Filter implements Filter {
         if (this.logFile != null) {
             this.logToFile(this.logFile);
         }
-       chain.doFilter(request, response);
+        chain.doFilter(request, response);
     }
 
     private void logToFile(String fileName) {

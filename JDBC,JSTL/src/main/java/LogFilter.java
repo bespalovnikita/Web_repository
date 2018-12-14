@@ -26,7 +26,7 @@ public class LogFilter implements Filter {
 
     @Override
     public void destroy() {
-    System.out.println("App has been stopped.");
+        System.out.println("App has been stopped.");
     }
 
     @Override

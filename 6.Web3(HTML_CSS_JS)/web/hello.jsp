@@ -3,25 +3,25 @@
 <html>
 
 <head>
-<title></title>
+    <title></title>
 </head>
 <body>
-    <div class="hello_text">Hello, <%= request.getParameter("name")%> ! </div>
+<div class="hello_text">Hello, <%= request.getParameter("name")%> !</div>
 </body>
 </html>
 
-<style >
+<style>
 
-    .hello_text{
+    .hello_text {
         font-family: 'Comic Sans MS', cursive, sans-serif;
         font-size: 35px;
         color: maroon;
     }
 
-    .hello_text:hover{
+    .hello_text:hover {
         font-size: 35px;
         color: gold;
-        background-color:rgba(0,0,0,.4);
+        background-color: rgba(0, 0, 0, .4);
     }
 
 </style>
