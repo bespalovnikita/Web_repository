@@ -1,45 +1,41 @@
-package hello.controller;
+package hello;
 
-import hello.entity.Persone;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import org.springframework.web.bind.annotation.*;
+import java.util.Map;
 
 @Controller
-public class EmployeeController {
+public class PersonController {
 
-    static String url = "jdbc:mysql://localhost:3306/test?useTimezone=true&serverTimezone=UTC";
-    static String user = "root";
-    static String password = "test";
+    @Autowired
+    private PersonRepository personRepository;
 
     @GetMapping("/")
     public String getForm() {
-
         return "mainPage";
-
     }
 
-
-    @PostMapping("/end")
+    @RequestMapping(value = "/end", method = RequestMethod.POST)
     public String saveDetails(@RequestParam("Name") String Name,
                               @RequestParam("Surname") String Surname,
                               @RequestParam("Patronymic") String Patronymic,
                               ModelMap modelMap) {
-        Persone persone = new Persone(Name,Surname,Patronymic);
-        saveToDatabase(Name,Surname,Patronymic);
+    Person person = new Person(Name,Surname,Patronymic);
+    //  saveToDatabase(Name,Surname,Patronymic);
+        personRepository.saveAndFlush(person);
         modelMap.put("Name", Name);
         modelMap.put("Surname", Surname);
         modelMap.put("Patronymic", Patronymic);
-
         return "end";
     }
 
+    @RequestMapping("/foo")
+    public String foo(Map<String, Object> model) {
+        throw new RuntimeException("Foo");
+    }
+/*
     public void saveToDatabase(String Name,String Surname,String Patronymic) {
 
         String insertTableSQL = "INSERT INTO test.table " + "(Name, Surname, Patronymic) " + "VALUES " + "('" + Name + "','" + Surname + "','" + Patronymic + "');";
@@ -56,4 +52,5 @@ public class EmployeeController {
             e.printStackTrace();
         }
     }
+    */
 }
