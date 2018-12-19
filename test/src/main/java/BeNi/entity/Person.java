@@ -1,18 +1,17 @@
-package hello;
+package BeNi.entity;
 
+import BeNi.PersonController;
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.*;
 
-
 @Entity
-@Table(name = "test")
+@Table(name = "table")
 public class Person {
 
-//    @Autowired
-//   private PersonController personController;
-
+  @Autowired
+  private PersonController personController;
 
     @Id
     @GeneratedValue(generator = "increment")
@@ -30,6 +29,9 @@ public class Person {
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
+    }
+
+    public Person(){
     }
 
     public String getName() {

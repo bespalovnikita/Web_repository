@@ -1,7 +1,6 @@
-package hello;
+package BeNi.config;
 
 import org.hibernate.ejb.HibernatePersistence;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -18,12 +17,10 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-/* @EnableJpaRepositories
-@ComponentScan
-@EntityScan */
 @EnableTransactionManagement
+@ComponentScan
 @PropertySource("classpath:application.properties")
-
+@EnableJpaRepositories("BeNi.repository")
 public class DataConfig {
 
     private static final String PROP_DATABASE_DRIVER = "db.driver";
