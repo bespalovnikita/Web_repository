@@ -27,6 +27,14 @@ public class House {
     @JoinColumn(name = "personid", insertable=false, updatable=false)
     private Person owner;
 
+    public House(String address, String housetype) {
+        this.address = address;
+        this.housetype = housetype;
+    }
+
+    public House(){
+    }
+
     public Long getHouseid() {
         return houseid;
     }

@@ -1,4 +1,4 @@
-package BeNi;
+package BeNi.controller;
 
 import java.util.List;
 
@@ -13,12 +13,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MainRESTController {
+public class RESTController {
 
     @Autowired private PersonService personService;
 
     @RequestMapping(value = "/persons",
-            method = RequestMethod.GET,
             produces = { MediaType.APPLICATION_JSON_VALUE})
     @ResponseBody
     public List<Person> getPersons() {
@@ -27,7 +26,7 @@ public class MainRESTController {
     }
 
     @RequestMapping(value = "/persons/{empNo}",
-            method = RequestMethod.GET,
+//            method = RequestMethod.GET,
             produces = { MediaType.APPLICATION_JSON_VALUE})
     @ResponseBody
     public Person getEmployee(@PathVariable("empNo") String empNo) {

@@ -1,4 +1,4 @@
-package BeNi;
+package BeNi.controller;
 
 import BeNi.entity.House;
 import BeNi.entity.Person;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.util.List;
 
 @Controller
-public class PersonController {
+public class SpringController {
 
     @Autowired private PersonServiceImpl personService;
     @Autowired private HouseServiceImpl houseService;
