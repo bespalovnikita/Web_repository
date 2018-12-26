@@ -8,15 +8,15 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 @EntityScan
-public class SecondApplication extends SpringBootServletInitializer {
+public class Application extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SecondApplication.class);
+		return application.sources(Application.class);
 	}
 
     public static void main(String[] args) {
-        SpringApplication.run(SecondApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
 
