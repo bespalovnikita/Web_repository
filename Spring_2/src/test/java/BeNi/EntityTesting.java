@@ -10,23 +10,25 @@ import static org.junit.Assert.assertEquals;
 public class EntityTesting {
 
     @Test
-    public void personTest(){
+    public void personConstructorTest(){
         Person pTest = new Person("Nikita", "Bespalov", "Sergeevich");
         assertEquals(pTest.getName(),"Nikita");
         assertEquals(pTest.getSurname(),"Bespalov");
         assertEquals(pTest.getPatronymic(),"Sergeevich");
         assertEquals(pTest.getPersonid(), null);
         assertEquals(pTest.getHouses(), null);
-        System.out.println("personTestCompleted");
+
+        System.out.println("personConstructorTest completed");
     }
 
     @Test
-    public void houseTest(){
+    public void houseConstructorTest(){
         House hTest = new House("address","housetype");
         assertEquals(hTest.getAddress(),"address");
         assertEquals(hTest.getHousetype(),"housetype");
         assertEquals(hTest.getPersonid(), null);
-        System.out.println("houseTestCompleted");
+
+        System.out.println("houseConstructorTest completed");
     }
 
 }

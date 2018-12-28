@@ -39,6 +39,7 @@ public class RepositoryTest {
     Person pTest3 = personRepository.getById((long) 1);
     assertEquals(null,pTest3);
 
+    System.out.println("testPersonRepository completed");
     }
 
     @Test
@@ -49,7 +50,7 @@ public class RepositoryTest {
         List<House> testList = houseRepository.findAll();
         assertEquals(pTest,testList.get(0));
 
-        House pTest2 = houseRepository.getById((long) 1);
+        House pTest2 = houseRepository.getById(1L);
         assertEquals(pTest,pTest2);
 
         houseRepository.delete(pTest);
@@ -57,9 +58,10 @@ public class RepositoryTest {
         List<House> testList2 = houseRepository.findAll();
         assertEquals(testList2.size(),0);
 
-        House pTest3 = houseRepository.getById((long) 1);
+        House pTest3 = houseRepository.getById(1L);
         assertEquals(null,pTest3);
 
+        System.out.println("testHouseRepository completed");
     }
 
 

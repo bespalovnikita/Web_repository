@@ -43,11 +43,11 @@ public class SpringController {
     public void link(@ModelAttribute("selected_person_id") String selected_person_id,
                      @ModelAttribute("selected_house_id") String selected_house_id,
                      ModelMap modelMap) {
-        Long house_id = Long.valueOf(selected_house_id);
-        Long person_id = Long.valueOf(selected_person_id);
-        houseService.link(person_id,house_id);
-        Person selected_person = personService.getById(house_id);
+        long house_id = Long.valueOf(selected_house_id);
         House selected_house = houseService.getById(house_id);
+        Person selected_person = personService.getById(house_id);
+        Long person_id = Long.valueOf(selected_person_id);
+        houseService.link(person_id,selected_house);
         modelMap.addAttribute("selected_person", selected_person);
         modelMap.addAttribute("selected_house", selected_house);
     }

@@ -25,5 +25,15 @@ public class PersonServiceImpl implements PersonService {
         return personRepository.findAll();
     }
 
+    @Override
+    public void delete(Person person) {
+        personRepository.delete(person);
+    }
+
+    @Override
+    public void delete(long id) {
+        personRepository.deleteById(id);
+    }
+
 
 }

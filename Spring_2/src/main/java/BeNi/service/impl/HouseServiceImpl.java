@@ -18,14 +18,23 @@ public class HouseServiceImpl implements HouseService {
     }
 
     @Override
-    public void link(Long person_id, Long house_id) {
-      House house = houseRepository.getById(house_id);
-      house.setPersonid(person_id);
-      houseRepository.saveAndFlush(house);
+    public void link(Long person_id, House house) {
+    house.setPersonid(person_id);
+    houseRepository.saveAndFlush(house);
     }
 
     @Override
     public House getById(Long id) { return houseRepository.getById(id);
+    }
+
+    @Override
+    public void delete(House house) {
+        houseRepository.delete(house);
+    }
+
+    @Override
+    public void delete(long id) {
+        houseRepository.deleteById(id);
     }
 
     @Override
