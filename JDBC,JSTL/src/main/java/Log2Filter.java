@@ -18,6 +18,7 @@ public class Log2Filter implements Filter {
     public void init(FilterConfig fConfig) throws ServletException {
         this.logFile = fConfig.getInitParameter("logFile");
         System.out.println("Log File " + logFile);
+
     }
 
     @Override

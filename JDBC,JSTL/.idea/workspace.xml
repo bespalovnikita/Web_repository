@@ -7,32 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf09e998-fcef-48ee-91e7-6afaa079928c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/out/artifacts/jsp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/out/artifacts/jsp_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5.Web2(Servlet)/out/artifacts/_5_Web2_Servlet__war_exploded/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../5.Web2(Servlet)/out/artifacts/_5_Web2_Servlet__war_exploded/page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5.Web2(Servlet)/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5.Web2(Servlet)/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5.Web2(Servlet)/web/jsp_example.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../5.Web2(Servlet)/web/jsp_example.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5.Web2(Servlet)/web/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../5.Web2(Servlet)/web/page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/listeners/AppContextAttributeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/listeners/AppContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/listeners/Log2Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/listeners/LogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/listeners/MySessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/servlets/EndPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/servlets/HouseBuilderPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/servlets/HouseManagerPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/servlets/LinkCompletePageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/servlets/MainPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/java/BeNi/servlets/PossessionsPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_test/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_test/src/main/webapp/end.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../000/Spring_test/src/main/webapp/mainPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/jsp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/out/artifacts/jsp_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../4.Web1(tomcat_jsp_war)/out/artifacts/jsp_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.Web2(Servlet)/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5.Web2(Servlet)/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.Web2(Servlet)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5.Web2(Servlet)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/out/artifacts/jsp_war_exploded/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/out/artifacts/jsp_war_exploded/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/out/artifacts/jsp_war_exploded/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/out/artifacts/jsp_war_exploded/page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/web/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/web/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/web/jsp_example.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/web/jsp_example.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/web/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../6.Web3(HTML_CSS_JS)/web/page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jdbc_war_exploded/end.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jdbc_war_exploded/end.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jdbc_war_exploded/main_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jdbc_war_exploded/main_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppContextAttributeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppContextAttributeListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppContextListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Log2Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Log2Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MySessionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MySessionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/end.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/end.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main_page.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,14 +66,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AppContextAttributeListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <element signature="method#attributeAdded#0;class#AppContextAttributeListener#0" />
-                <element signature="method#attributeReplaced#0;class#AppContextAttributeListener#0" />
                 <element signature="method#attributeRemoved#0;class#AppContextAttributeListener#0" />
               </folding>
             </state>
@@ -90,14 +87,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="799">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#addCookies#0;class#Main#0" />
               </folding>
             </state>
           </provider>
@@ -115,8 +111,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MySessionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,9 +141,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AppContextListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#contextInitialized#0;class#AppContextListener#0" />
                 <element signature="method#contextDestroyed#0;class#AppContextListener#0" />
                 <element signature="method#attributeRemoved#0;class#AppContextListener#0" />
@@ -157,8 +157,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Log2Filter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="68">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,12 +184,12 @@
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/AppContextListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Log2Filter.java" />
         <option value="$PROJECT_DIR$/src/main/java/LogFilter.java" />
         <option value="$PROJECT_DIR$/web/main_page.jsp" />
         <option value="$PROJECT_DIR$/web/end.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Log2Filter.java" />
       </list>
     </option>
   </component>
@@ -207,9 +210,9 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="785" />
-    <option name="y" value="92" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="850" />
+    <option name="y" value="-22" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -390,17 +393,20 @@
       <workItem from="1544680844080" duration="1654000" />
       <workItem from="1544762954138" duration="2294000" />
       <workItem from="1544773420532" duration="797000" />
+      <workItem from="1547112457904" duration="702000" />
+      <workItem from="1547120150106" duration="2500000" />
+      <workItem from="1547184465453" duration="655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16380000" />
+    <option name="totallyTimeSpent" value="20237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2782516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,14 +461,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AppContextAttributeListener.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/end.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Log2Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main_page.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="method#attributeAdded#0;class#AppContextAttributeListener#0" />
-            <element signature="method#attributeReplaced#0;class#AppContextAttributeListener#0" />
-            <element signature="method#attributeRemoved#0;class#AppContextAttributeListener#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#contextInitialized#0;class#AppContextListener#0" />
+            <element signature="method#contextDestroyed#0;class#AppContextListener#0" />
+            <element signature="method#attributeRemoved#0;class#AppContextListener#0" />
+            <element signature="method#attributeReplaced#0;class#AppContextListener#0" />
           </folding>
         </state>
       </provider>
@@ -474,61 +513,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/main_page.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="799">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MySessionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AppContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="method#contextInitialized#0;class#AppContextListener#0" />
-            <element signature="method#contextDestroyed#0;class#AppContextListener#0" />
-            <element signature="method#attributeRemoved#0;class#AppContextListener#0" />
-            <element signature="method#attributeReplaced#0;class#AppContextListener#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Log2Filter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppContextAttributeListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/end.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addCookies#0;class#Main#0" />
+            <element signature="method#attributeRemoved#0;class#AppContextAttributeListener#0" />
           </folding>
         </state>
       </provider>
