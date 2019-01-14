@@ -1,10 +1,12 @@
 package BeNi.service.impl;
-import BeNi.repository.PersonRepository;
+
 import BeNi.entity.Person;
+import BeNi.repository.PersonRepository;
 import BeNi.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 @Service

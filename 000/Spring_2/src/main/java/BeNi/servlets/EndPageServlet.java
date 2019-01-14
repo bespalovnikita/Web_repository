@@ -11,17 +11,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 @Configuration
-@ComponentScan("BeNi.service")
+@ComponentScan("BeNi")
 public class EndPageServlet extends HttpServlet {
 
     @Autowired
     private PersonServiceImpl personService;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Person> personList = personService.getAll();
+        Person person = personService.getById(0L);
     }
         /*String Name = request.getParameter("Name");
         String Surname = request.getParameter("Surname");
