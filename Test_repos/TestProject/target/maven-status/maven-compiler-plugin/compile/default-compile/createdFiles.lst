@@ -1,0 +1,5 @@
+BeNi\repository\Repos.class
+BeNi\MainServlet.class
+BeNi\Log4jInit.class
+BeNi\config\WebConfig.class
+BeNi\entity\Person.class
