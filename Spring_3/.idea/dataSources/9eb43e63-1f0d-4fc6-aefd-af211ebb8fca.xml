@@ -102,8 +102,8 @@
       <Comment>standard public schema</Comment>
       <StateNumber>359</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2019-01-23.13:00:54.063</IntrospectionTimestamp>
-      <IntrospectionStateNumber>721</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2019-02-01.14:24:45.867</IntrospectionTimestamp>
+      <IntrospectionStateNumber>796</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -163,50 +163,98 @@
       <SchemaName>pg_catalog</SchemaName>
       <SchemaId>11</SchemaId>
     </extension>
-    <table id="26" parent="18" name="house">
+    <table id="26" parent="18" name="customer">
+      <ObjectId>16580</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>792</StateNumber>
+    </table>
+    <table id="27" parent="18" name="house">
       <ObjectId>16559</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>639</StateNumber>
     </table>
-    <table id="27" parent="18" name="person">
+    <table id="28" parent="18" name="person">
       <ObjectId>16567</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>639</StateNumber>
     </table>
-    <column id="28" parent="26" name="houseid">
+    <table id="29" parent="18" name="reestr">
+      <ObjectId>16585</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>793</StateNumber>
+    </table>
+    <column id="30" parent="26" name="c_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>795</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="31" parent="26" name="reestrid">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>794</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="32" parent="26" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>791</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="33" parent="26" name="code">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>791</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="34" parent="26" name="reestr_pkey">
+      <ObjectId>16583</ObjectId>
+      <StateNumber>791</StateNumber>
+      <ColNames>c_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="26" name="reestr_pkey">
+      <ObjectId>16584</ObjectId>
+      <StateNumber>791</StateNumber>
+      <ColNames>c_id</ColNames>
+      <UnderlyingIndexName>reestr_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="27" name="houseid">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>637</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="29" parent="26" name="address">
+    <column id="37" parent="27" name="address">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>719</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="30" parent="26" name="personid">
+    <column id="38" parent="27" name="personid">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <StateNumber>637</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="31" parent="26" name="house_pkey">
+    <index id="39" parent="27" name="house_pkey">
       <ObjectId>16565</ObjectId>
       <StateNumber>637</StateNumber>
       <ColNames>houseid</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="32" parent="26" name="house_pkey">
+    <key id="40" parent="27" name="house_pkey">
       <ObjectId>16566</ObjectId>
       <StateNumber>637</StateNumber>
       <ColNames>houseid</ColNames>
       <UnderlyingIndexName>house_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="33" parent="26" name="fk94b406bnl679y0rlaccqe4g6o">
+    <foreign-key id="41" parent="27" name="fk94b406bnl679y0rlaccqe4g6o">
       <ObjectId>16575</ObjectId>
       <StateNumber>639</StateNumber>
       <ColNames>personid</ColNames>
@@ -216,45 +264,77 @@
       <RefKeyName>person_pkey</RefKeyName>
       <RefColNames>personid</RefColNames>
     </foreign-key>
-    <column id="34" parent="27" name="personid">
+    <column id="42" parent="28" name="personid">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>638</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="35" parent="27" name="name">
+    <column id="43" parent="28" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>718</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="36" parent="27" name="patronymic">
+    <column id="44" parent="28" name="patronymic">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>718</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="37" parent="27" name="surname">
+    <column id="45" parent="28" name="surname">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>718</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="38" parent="27" name="person_pkey">
+    <index id="46" parent="28" name="person_pkey">
       <ObjectId>16573</ObjectId>
       <StateNumber>638</StateNumber>
       <ColNames>personid</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="39" parent="27" name="person_pkey">
+    <key id="47" parent="28" name="person_pkey">
       <ObjectId>16574</ObjectId>
       <StateNumber>638</StateNumber>
       <ColNames>personid</ColNames>
       <UnderlyingIndexName>person_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="29" name="r_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>796</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="49" parent="29" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>793</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="50" parent="29" name="code">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>793</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="51" parent="29" name="reestr_pkey1">
+      <ObjectId>16591</ObjectId>
+      <StateNumber>793</StateNumber>
+      <ColNames>r_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="29" name="reestr_pkey1">
+      <ObjectId>16592</ObjectId>
+      <StateNumber>793</StateNumber>
+      <ColNames>r_id</ColNames>
+      <UnderlyingIndexName>reestr_pkey1</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
   </database-model>
