@@ -32,14 +32,6 @@ public class Customer {
 
     public Customer(){}
 
-    public Long getc_id() {
-        return c_id;
-    }
-
-    public void setc_id(Long c_id) {
-        this.c_id = c_id;
-    }
-
     public Long getReestrid() {
         return reestrid;
     }
@@ -62,5 +54,21 @@ public class Customer {
 
     public void setOwner(Reestr owner) {
         this.owner = owner;
+    }
+
+    public Long getC_id() {
+        return c_id;
+    }
+
+    public void setC_id(Long c_id) {
+        this.c_id = c_id;
+    }
+
+    public Long getCode() {
+        return code;
+    }
+
+    public void setCode(Long code) {
+        this.code = code;
     }
 }

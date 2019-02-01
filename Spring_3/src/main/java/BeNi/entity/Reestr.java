@@ -1,8 +1,6 @@
 package BeNi.entity;
 
 import org.hibernate.annotations.GenericGenerator;
-import org.springframework.transaction.annotation.Transactional;
-
 import javax.persistence.*;
 import java.util.List;
 
