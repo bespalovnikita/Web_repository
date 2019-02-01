@@ -1,8 +1,6 @@
-BeNi\controller\MainController.class
-BeNi\controller\RESTController.class
-BeNi\repository\PersonRepository.class
+BeNi\controller\MainPageController.class
+BeNi\entity\Reestr.class
+BeNi\config\HibernateSessionFactory.class
+BeNi\entity\Customer.class
 BeNi\config\AppInit.class
-BeNi\Service\impl\PersonServiceImpl.class
-BeNi\entity\Person.class
-BeNi\Service\PersonService.class
 BeNi\config\WebConfig.class
