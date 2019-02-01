@@ -6,7 +6,7 @@
     <title>Привет</title>
 </head>
 <body>
-<c:out value='${house.address} ${house.housetype} теперь тоже в базе.'/>
+<c:out value='${customer.address} ${customer.housetype} теперь тоже в базе.'/>
 
 <table border="1" width=300px>
     <tr>

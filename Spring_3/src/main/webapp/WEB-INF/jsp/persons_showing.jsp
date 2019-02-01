@@ -6,7 +6,7 @@
     <title>Привет</title>
 </head>
 <body>
-<c:out value='Привет ${person.name} ${person.surname} ${person.patronymic}! Теперь ты тоже в базе.'/>
+<c:out value='Привет ${reestr.name} ${reestr.surname} ${reestr.patronymic}! Теперь ты тоже в базе.'/>
 
 <table border="1" width=300px>
     <tr>
@@ -14,7 +14,7 @@
         <th>Фамилия</th>
         <th>Отчество</th>
     </tr>
-    <c:forEach var="person_T" items="${personList}">
+    <c:forEach var="person_T" items="${reestrList}">
         <tr>
             <td><c:out value="${person_T.name}"/></td>
             <td><c:out value="${person_T.surname}"/></td>

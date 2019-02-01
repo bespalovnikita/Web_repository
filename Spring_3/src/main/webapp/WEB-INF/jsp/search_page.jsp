@@ -16,13 +16,13 @@
         <th width=100px>Отчество</th>
         <th width=100px>Имущество</th>
     </tr>
-    <c:forEach var="person_T" items="${personList}">
+    <c:forEach var="person_T" items="${reestrList}">
         <tr>
             <td><c:out value="${person_T.name}"/></td>
             <td><c:out value="${person_T.surname}"/></td>
             <td><c:out value="${person_T.patronymic}"/></td>
-            <td><c:forEach  var="house" items="${person_T.houses}">
-                <option value=${house.houseid}>${house.address}</option>
+            <td><c:forEach  var="customer" items="${person_T.customers}">
+                <option value=${customer.houseid}>${customer.address}</option>
             </c:forEach></td>
         </tr>
     </c:forEach>

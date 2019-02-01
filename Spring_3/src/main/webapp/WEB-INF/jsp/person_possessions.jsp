@@ -9,8 +9,8 @@
 <div class="possessions">
     <H1>Владения ${possess_person.name} ${possess_person.surname} ${possess_person.patronymic} : </H1>
     <p>
-            <c:forEach  var="house" items="${houseList}">
-          <h3><c:out value="${house.address} ${house.housetype}"/> </h3>
+            <c:forEach  var="customer" items="${houseList}">
+          <h3><c:out value="${customer.address} ${customer.housetype}"/> </h3>
             </c:forEach>
     </p>
     <form action="${pageContext.request.contextPath}/">
