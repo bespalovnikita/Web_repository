@@ -29,8 +29,8 @@
     </form>
     <form method="post" action="${pageContext.request.contextPath}/person_possessions">
         <select name="selected_person_id">
-            <c:forEach  var="person" items="${personList}">
-                <option value=${person.personid}>${person.name} ${person.surname} ${person.patronymic}</option>
+            <c:forEach  var="reestr" items="${reestrList}">
+                <option value=${reestr.personid}>${reestr.name} ${reestr.surname} ${reestr.patronymic}</option>
             </c:forEach>
         </select>
         <button type="submit">Просмотреть владения</button>
