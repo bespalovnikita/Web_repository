@@ -1,13 +1,15 @@
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\controller\MainController.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\repository\PersonRepository.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\controller\SpringController.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\repository\HouseRepository.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\config\AppInit.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\config\WebConfig.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\entity\Person.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\Service\PersonService.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\controller\RESTController.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\entity\House.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\Service\impl\PersonServiceImpl.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\Service\HouseService.java
-C:\Users\User\Desktop\Debug-master — копия\src\main\java\BeNi\Service\impl\HouseServiceImpl.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\config\AppInit.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\Service\HouseService.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\config\WebConfig.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\controller\SearchController.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\controller\PersonController.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\Person.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\Service\impl\HouseServiceImpl.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\Service\PersonService.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\repository\HouseRepository.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\controller\RESTController.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\House.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\controller\MainPageController.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\controller\HouseController.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\repository\PersonRepository.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\Service\impl\PersonServiceImpl.java

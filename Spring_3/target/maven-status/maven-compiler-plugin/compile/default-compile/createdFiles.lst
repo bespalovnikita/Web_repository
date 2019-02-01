@@ -1,8 +1,15 @@
-BeNi\controller\MainController.class
+BeNi\controller\MainPageController.class
 BeNi\controller\RESTController.class
+BeNi\controller\PersonController.class
 BeNi\repository\PersonRepository.class
 BeNi\config\AppInit.class
 BeNi\Service\impl\PersonServiceImpl.class
-BeNi\entity\Person.class
 BeNi\Service\PersonService.class
+BeNi\Service\impl\HouseServiceImpl.class
+BeNi\Service\HouseService.class
+BeNi\entity\House.class
+BeNi\entity\Person.class
+BeNi\controller\HouseController.class
 BeNi\config\WebConfig.class
+BeNi\repository\HouseRepository.class
+BeNi\controller\SearchController.class
