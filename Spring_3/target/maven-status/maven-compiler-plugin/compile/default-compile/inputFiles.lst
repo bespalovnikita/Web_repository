@@ -2,5 +2,8 @@ C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\config\Ap
 C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\config\WebConfig.java
 C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\config\HibernateSessionFactory.java
 C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\Customer.java
-C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\Reestr.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\Department.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\Status.java
 C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\controller\MainPageController.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\Doc.java
+C:\Users\User\Desktop\Repos\Web_repository\Spring_3\src\main\java\BeNi\entity\Doctype.java

@@ -1,6 +1,9 @@
 BeNi\controller\MainPageController.class
-BeNi\entity\Reestr.class
 BeNi\config\HibernateSessionFactory.class
 BeNi\entity\Customer.class
 BeNi\config\AppInit.class
+BeNi\entity\Status.class
+BeNi\entity\Doc.class
+BeNi\entity\Doctype.class
 BeNi\config\WebConfig.class
+BeNi\entity\Department.class
