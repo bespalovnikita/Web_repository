@@ -4,8 +4,16 @@
 <!DOCTYPE html>
 <html>
 <body>
+<h4>
 <c:forEach  var="customer" items="${customerList}">
-    <h4><c:out value="${customer.c_id} ${customer.reestrid} ${customer.name} ${customer.code}"/> </h4>
+    <c:out value="${customer.name} "/>
+    <h4>
+    <c:forEach  var="document" items="${customer.documentList}">
+        <c:out value="${document.name} ${document.status.name} ${document.doctype.name}"/>
+    </c:forEach>
+    </h4>
 </c:forEach>
+
+
 </body>
 </html>
