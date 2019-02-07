@@ -12,11 +12,11 @@ import java.util.List;
 
 @Controller
 public class MainPageController {
-
+    Session session = HibernateSessionFactory.getSessionFactory().openSession();
 
     @GetMapping("/")
     public String main_page_get(ModelMap modelMap) {
-        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
         Criteria criteria = session.createCriteria(Customer.class);
         List<Customer> customerList = criteria.list();
         modelMap.addAttribute("customerList", customerList);
