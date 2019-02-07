@@ -7,22 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e96b04f1-7a85-4062-9276-ca6527da0223" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeNi/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeNi/entity/Doctype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeNi/entity/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeNi/entity/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9eb43e63-1f0d-4fc6-aefd-af211ebb8fca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9eb43e63-1f0d-4fc6-aefd-af211ebb8fca.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BeNi/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BeNi/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BeNi/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BeNi/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BeNi/entity/Reestr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_3-1/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_3-1/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_3-1/WEB-INF/jsp/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_3-1/WEB-INF/jsp/mainPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BeNi/controller/MainPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,7 +140,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="oneToMany&amp;ManyToManyImpl" />
+        <entry key="$PROJECT_DIR$/.." value="criteria_implementation" />
       </map>
     </option>
   </component>
@@ -250,9 +235,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="114" />
-    <option name="y" value="-18" />
-    <option name="width" value="3076" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -364,7 +349,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549522085220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549522239468" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/postgresql-42.2.5.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -676,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549014409604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1549522238451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549522238451</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -712,7 +704,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98411000" />
+    <option name="totallyTimeSpent" value="98673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,10 +716,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19018742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19018742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -739,7 +731,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9173774" weight="0.34893617" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" visible="true" weight="0.39893618" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -750,7 +742,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.0826226" side_tool="true" weight="0.34994584" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48614073" weight="0.3617021" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3287234" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3287234" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="16" weight="0.32936078" />
       <window_info anchor="bottom" id="Duplicate detector" order="17" weight="0.32936078" />
@@ -858,9 +850,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BeNi/controller/MainPageController.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1228,8 +1220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BeNi/controller/MainPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
