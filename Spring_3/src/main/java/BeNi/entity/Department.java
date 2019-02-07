@@ -33,6 +33,13 @@ public class Department {
         this.name = name;
     }
 
+    public Long getDepartment_id() {
+        return department_id;
+    }
+
+    public void setDepartment_id(Long department_id) {
+        this.department_id = department_id;
+    }
 
     public List<Document> getDocs() {
         return docs;
