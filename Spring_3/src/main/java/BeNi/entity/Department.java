@@ -1,5 +1,6 @@
 package BeNi.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -18,12 +19,19 @@ public class Department {
     @Column(name = "name")
     private String name;
 
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "document_department",
             joinColumns = @JoinColumn(name = "department_id"),
             inverseJoinColumns = @JoinColumn(name = "document_id"))
+    @JsonBackReference
     private List<Document> docs;
 
+    public Department(String name) {
+        this.name = name;
+    }
+
+    public Department() {
+    }
 
     public String getName() {
         return name;
@@ -48,4 +56,15 @@ public class Department {
     public void setDocs(List<Document> docs) {
         this.docs = docs;
     }
+
+    public void addDocument(Document document) {
+        if(!docs.contains(document))
+        docs.add(document);
+    }
+
+    public void delDocument(Document document) {
+        if(docs.contains(document))
+        docs.remove(document);
+    }
+
 }

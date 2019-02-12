@@ -1,5 +1,7 @@
 package BeNi.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -18,9 +20,15 @@ public class Customer {
     @Column(name = "name")
     private String name;
 
-    @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private List<Document> documentList;
 
+    public Customer(String name) {
+        this.name = name;
+    }
+    public Customer() {
+    }
     public List<Document> getDocumentList() {
         return documentList;
     }
@@ -43,5 +51,14 @@ public class Customer {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void addDocument(Document document) {
+        documentList.add(document);
+    }
+
+    public void delDocument(Document document) {
+        if(documentList.contains(document))
+        documentList.remove(document);
     }
 }

@@ -16,7 +16,6 @@ public class MainPageController {
 
     @GetMapping("/")
     public String main_page_get(ModelMap modelMap) {
-
         Criteria criteria = session.createCriteria(Customer.class);
         List<Customer> customerList = criteria.list();
         modelMap.addAttribute("customerList", customerList);
